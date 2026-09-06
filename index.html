@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mouad Sakhi — Cybersecurity Engineering Student</title>
+<meta name="description" content="Portfolio of Mouad Sakhi — Information Systems Security engineering student, CTF player, Cisco-certified ethical hacker and threat intelligence enthusiast based in Marrakech, Morocco.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+<div class="grid-bg" aria-hidden="true"></div>
+<div class="stars-layer" aria-hidden="true"></div>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="logo" data-nav aria-label="Mouad Sakhi home">
+      <span class="logo-mark"><span class="logo-m">M</span><span class="logo-s">S</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home" class="nav-link active" data-nav data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-nav data-section="about">About</a>
+      <a href="#skills" class="nav-link" data-nav data-section="skills">Skills</a>
+      <a href="#experience" class="nav-link" data-nav data-section="experience">Experience</a>
+      <a href="#projects" class="nav-link" data-nav data-section="projects">Projects</a>
+      <a href="#certifications" class="nav-link" data-nav data-section="certifications">Certifications</a>
+      <a href="#contact" class="nav-link" data-nav data-section="contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-primary btn-nav" data-nav>Get in touch</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HOME -->
+  <section id="home" class="section hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-greeting">Cybersecurity student</p>
+        <h1 class="hero-name">Mouad Sakhi</h1>
+        <p class="hero-role">
+          <span id="typedRole" class="typed-role"></span><span class="cursor-blink">|</span>
+        </p>
+        <p class="hero-desc">
+          I’m a cybersecurity engineering student focused on network security, ethical hacking, and resilient system design.
+          My work sits between defensive architecture and practical security analysis, with a strong interest in threat intelligence and secure operations.
+        </p>
+
+        <div class="hero-socials">
+          <a href="https://github.com/Mouad-sk" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.3-1.69-1.3-1.69-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.71 5.4-5.29 5.69.42.36.79 1.08.79 2.18v3.23c0 .31.21.67.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/mouad-sakhi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          </a>
+          <a href="mailto:sk.mouad1@gmail.com" aria-label="Send an email">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 5.5h18v13H3z"/><path d="m3 6 9 7 9-7"/></svg>
+          </a>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" data-nav>Get in touch</a>
+          <a href="https://github.com/Mouad-sk" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">View GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="terminal-window" role="img" aria-label="Terminal window animation introducing Mouad Sakhi">
+          <div class="terminal-titlebar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="terminal-title">mouad@security-lab: ~</span>
+          </div>
+          <div class="terminal-body" id="terminalBody">
+            <p class="term-line"><span class="term-prompt">mouad@security-lab</span><span class="term-sep">:~$</span> cat profile.txt</p>
+            <p class="term-line term-out">> Engineering student — Information Systems Security</p>
+            <p class="term-line term-out">> FST Marrakech · Université Cadi Ayyad</p>
+            <p class="term-line"><span class="term-prompt">mouad@security-lab</span><span class="term-sep">:~$</span> cat interests.txt</p>
+            <p class="term-line term-out">> Ethical hacking · CTF · threat intelligence</p>
+            <p class="term-line term-out">> Phishing &amp; malware analysis</p>
+            <p class="term-line"><span class="term-prompt">mouad@security-lab</span><span class="term-sep">:~$</span> ./status.sh</p>
+            <p class="term-line term-out term-success">[OK] Available for internships and CTF collaborations</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" data-nav aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+
+    <div class="section-head">
+      <h2>Profile</h2>
+      <p class="section-sub">A concise overview of my security focus and professional direction.</p>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        Cybersecurity engineering student with a practical mindset shaped by hands-on work in network defense, ethical hacking, and secure system design.
+        I enjoy analyzing how systems fail under real-world conditions and translating that understanding into stronger, more resilient protections.
+      </p>
+      <p class="about-text">
+        My interests include threat intelligence, phishing analysis, IDS/IPS deployment, and building secure environments that balance usability with control.
+        I value clear thinking, technical discipline, and the ability to move between offensive and defensive perspectives with confidence.
+      </p>
+
+      <div class="profile-highlights">
+        <div class="profile-item">
+          <span class="profile-label">Focus</span>
+          <h3>Cybersecurity engineering</h3>
+        </div>
+        <div class="profile-item">
+          <span class="profile-label">Core areas</span>
+          <h3>Network security • Threat analysis • Secure architecture</h3>
+        </div>
+        <div class="profile-item">
+          <span class="profile-label">Education</span>
+          <h3>Information Systems Security, FST Marrakech</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <p class="section-sub">Tools and technologies I work with, from firewalls to frameworks.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h3>Cybersecurity</h3>
+        <div class="tag-list">
+          <span class="tag">Ethical Hacking</span>
+          <span class="tag">Threat Intelligence</span>
+          <span class="tag">Phishing &amp; Malware Analysis</span>
+          <span class="tag">IDS/IPS · Suricata</span>
+          <span class="tag">SIEM · Splunk</span>
+          <span class="tag">pfSense</span>
+          <span class="tag">OpenVPN</span>
+          <span class="tag">Zero-Knowledge Proofs</span>
+          <span class="tag">ISO/IEC 27001</span>
+          <span class="tag">CTF</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Networking &amp; Systems</h3>
+        <div class="tag-list">
+          <span class="tag">SDN / OpenFlow</span>
+          <span class="tag">Firewalls</span>
+          <span class="tag">VPN</span>
+          <span class="tag">DMZ</span>
+          <span class="tag">NAT</span>
+          <span class="tag">Linux · Kali / Ubuntu</span>
+          <span class="tag">VirtualBox</span>
+          <span class="tag">Network Administration</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Development</h3>
+        <div class="tag-list">
+          <span class="tag">Python</span>
+          <span class="tag">Java</span>
+          <span class="tag">Shell / Bash</span>
+          <span class="tag">PHP · Laravel</span>
+          <span class="tag">HTML / CSS / JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Methodologies &amp; Tools</h3>
+        <div class="tag-list">
+          <span class="tag">Agile / Scrum</span>
+          <span class="tag">LaTeX</span>
+          <span class="tag">Microsoft Office</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="lang-row">
+      <div class="lang-item">
+        <div class="lang-header"><span class="lang-name">Arabic</span><span class="lang-level">Native</span></div>
+        <div class="skill-bar"><span style="width: 100%"></span></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-header"><span class="lang-name">French</span><span class="lang-level">B2</span></div>
+        <div class="skill-bar"><span style="width: 82%"></span></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-header"><span class="lang-name">English</span><span class="lang-level">B2</span></div>
+        <div class="skill-bar"><span style="width: 80%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-head">
+      <h2>Experience</h2>
+    </div>
+    <div class="exp-card">
+      <div class="exp-head">
+        <div>
+          <h3>Secure Web Development Intern</h3>
+          <p class="exp-company">Oriental Group — Marrakech</p>
+        </div>
+        <p class="exp-date">Jun — Jul 2025</p>
+      </div>
+      <ul class="exp-list">
+        <li>Designed and deployed a secure company blog, integrating security protocols across the stack.</li>
+        <li>Ran security and performance audits to identify and remediate vulnerabilities before launch.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <p class="section-sub">Academic and hands-on builds spanning networking, AI and applied cryptography.</p>
+    </div>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-art" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" alt="" />
+        </div>
+        <div class="project-main">
+          <h3>Secure Enterprise Network Architecture</h3>
+          <p class="project-tech">pfSense · OpenVPN · Suricata · VirtualBox</p>
+          <p class="project-desc">Deployed a complete enterprise infrastructure: pfSense firewall, OpenVPN TLS/certificate-based VPN, Suricata IDS/IPS, segmented DMZ and NAT, plus Apache and vsftpd services.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-art" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80" alt="" />
+        </div>
+        <div class="project-main">
+          <h3>Software-Defined Network Simulation</h3>
+          <p class="project-tech">Cisco Packet Tracer</p>
+          <p class="project-desc">Modelled and explained an SDN architecture separating the control and data planes around a centralised controller, then simulated the switching topology end to end.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-art" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=80" alt="" />
+        </div>
+        <div class="project-main">
+          <h3>Threat Intelligence Lifecycle</h3>
+          <p class="project-tech">VirusTotal · URLScan · Shodan</p>
+          <p class="project-desc">Researched and illustrated the complete threat intelligence cycle — collection, processing, analysis, dissemination and operational use of indicators.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-art" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80" alt="" />
+        </div>
+        <div class="project-main">
+          <h3>Anti-Phishing Resilience Platform</h3>
+          <p class="project-tech">Laravel · Python</p>
+          <p class="project-desc">Built a cyber-resilience web platform combining malicious URL detection, interactive phishing-awareness tests, and secure file sharing.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-art" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80" alt="" />
+        </div>
+        <div class="project-main">
+          <h3>Brain Tumor Detection with Deep Learning</h3>
+          <p class="project-tech">Python · TensorFlow · Scrum</p>
+          <p class="project-desc">Trained a deep-learning model to classify MRI scans, paired with an integrated medical chatbot, and managed delivery using Scrum sprints.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-art" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" alt="" />
+        </div>
+        <div class="project-main">
+          <h3>Zero-Knowledge Proof Protocol</h3>
+          <p class="project-tech">Kali Linux · Applied Cryptography</p>
+          <p class="project-desc">Implemented a zero-knowledge proof protocol and simulated a replay attack to validate the robustness of the cryptographic exchange.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="section-head">
+      <h2>Certifications</h2>
+      <p class="section-sub">Verified credentials across ethical hacking, threat management, and security fundamentals.</p>
+    </div>
+    <div class="certs-grid">
+      <article class="cert-card" style="--i: 0">
+        <div class="cert-badge-wrap" aria-hidden="true">
+          <svg class="cert-badge" viewBox="0 0 24 24">
+            <circle class="cert-ring" cx="12" cy="10" r="5" />
+            <path class="cert-check" d="M9.5 10.5l1.6 1.6L14.5 8" />
+          </svg>
+        </div>
+        <div class="cert-body">
+          <h3>Ethical Hacker</h3>
+          <p class="cert-issuer">Cisco</p>
+        </div>
+        <span class="cert-status">verified</span>
+      </article>
+      <article class="cert-card" style="--i: 1">
+        <div class="cert-badge-wrap" aria-hidden="true">
+          <svg class="cert-badge" viewBox="0 0 24 24">
+            <circle class="cert-ring" cx="12" cy="10" r="5" />
+            <path class="cert-check" d="M9.5 10.5l1.6 1.6L14.5 8" />
+          </svg>
+        </div>
+        <div class="cert-body">
+          <h3>Junior Cybersecurity Analyst</h3>
+          <p class="cert-issuer">Cisco</p>
+        </div>
+        <span class="cert-status">verified</span>
+      </article>
+      <article class="cert-card" style="--i: 2">
+        <div class="cert-badge-wrap" aria-hidden="true">
+          <svg class="cert-badge" viewBox="0 0 24 24">
+            <circle class="cert-ring" cx="12" cy="10" r="5" />
+            <path class="cert-check" d="M9.5 10.5l1.6 1.6L14.5 8" />
+          </svg>
+        </div>
+        <div class="cert-body">
+          <h3>Cyber Threat Management</h3>
+          <p class="cert-issuer">Cisco</p>
+        </div>
+        <span class="cert-status">verified</span>
+      </article>
+      <article class="cert-card" style="--i: 3">
+        <div class="cert-badge-wrap" aria-hidden="true">
+          <svg class="cert-badge" viewBox="0 0 24 24">
+            <circle class="cert-ring" cx="12" cy="10" r="5" />
+            <path class="cert-check" d="M9.5 10.5l1.6 1.6L14.5 8" />
+          </svg>
+        </div>
+        <div class="cert-body">
+          <h3>Network Defense</h3>
+          <p class="cert-issuer">Cisco</p>
+        </div>
+        <span class="cert-status">verified</span>
+      </article>
+      <article class="cert-card" style="--i: 4">
+        <div class="cert-badge-wrap" aria-hidden="true">
+          <svg class="cert-badge" viewBox="0 0 24 24">
+            <circle class="cert-ring" cx="12" cy="10" r="5" />
+            <path class="cert-check" d="M9.5 10.5l1.6 1.6L14.5 8" />
+          </svg>
+        </div>
+        <div class="cert-body">
+          <h3>Python Essentials 2</h3>
+          <p class="cert-issuer">Cisco</p>
+        </div>
+        <span class="cert-status">verified</span>
+      </article>
+      <article class="cert-card" style="--i: 5">
+        <div class="cert-badge-wrap" aria-hidden="true">
+          <svg class="cert-badge" viewBox="0 0 24 24">
+            <circle class="cert-ring" cx="12" cy="10" r="5" />
+            <path class="cert-check" d="M9.5 10.5l1.6 1.6L14.5 8" />
+          </svg>
+        </div>
+        <div class="cert-body">
+          <h3>ISO/IEC 27001:2022 Information Security Associate</h3>
+          <p class="cert-issuer">SkillFront</p>
+        </div>
+        <span class="cert-status">verified</span>
+      </article>
+      <article class="cert-card" style="--i: 6">
+        <div class="cert-badge-wrap" aria-hidden="true">
+          <svg class="cert-badge" viewBox="0 0 24 24">
+            <circle class="cert-ring" cx="12" cy="10" r="5" />
+            <path class="cert-check" d="M9.5 10.5l1.6 1.6L14.5 8" />
+          </svg>
+        </div>
+        <div class="cert-body">
+          <h3>Cybersecurity Fundamentals</h3>
+          <p class="cert-issuer">IBM</p>
+        </div>
+        <span class="cert-status">verified</span>
+      </article>
+      <article class="cert-card" style="--i: 7">
+        <div class="cert-badge-wrap" aria-hidden="true">
+          <svg class="cert-badge" viewBox="0 0 24 24">
+            <circle class="cert-ring" cx="12" cy="10" r="5" />
+            <path class="cert-check" d="M9.5 10.5l1.6 1.6L14.5 8" />
+          </svg>
+        </div>
+        <div class="cert-body">
+          <h3>Introduction to Splunk</h3>
+          <p class="cert-issuer">Splunk</p>
+        </div>
+        <span class="cert-status">verified</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-head">
+      <h2>Get in Touch</h2>
+      <p class="section-sub">Send a message about a project, internship, or collaboration opportunity.</p>
+    </div>
+
+    <p class="contact-intro">
+      I’m open to internship opportunities, security collaborations, and conversations around defensive design,
+      threat analysis, and practical cyber projects.
+    </p>
+
+    <div class="contact-form-wrap">
+      <form class="contact-form" id="contactForm">
+        <div class="form-row two-col">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+        </div>
+        <label>
+          <span>Subject</span>
+          <input type="text" name="subject" placeholder="Project / internship / collaboration" required />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="6" placeholder="Tell me a little about your idea..." required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+
+      <aside class="contact-sidepanel">
+        <div class="sidepanel-block">
+          <span class="mini-label">Email</span>
+          <a class="sidepanel-link" href="mailto:sk.mouad1@gmail.com">sk.mouad1@gmail.com</a>
+        </div>
+        <button type="button" class="sidepanel-block phone-copy" id="copyPhone" data-value="+212 605 11 52 56">
+          <span class="mini-label">Phone</span>
+          <span class="phone-value">+212 605 11 52 56</span>
+          <span class="copy-flag" aria-live="polite">Click to copy</span>
+        </button>
+        <div class="sidepanel-block">
+          <span class="mini-label">Location</span>
+          <p>Marrakech, Morocco</p>
+        </div>
+        <div class="sidepanel-block">
+          <span class="mini-label">Availability</span>
+          <p>Open to internships and security collaborations</p>
+        </div>
+        <div class="sidepanel-block sidepanel-connect">
+          <span class="mini-label">Connect</span>
+          <div class="social-btns">
+            <a class="social-btn" href="https://github.com/Mouad-sk" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.3-1.69-1.3-1.69-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.71 5.4-5.29 5.69.42.36.79 1.08.79 2.18v3.23c0 .31.21.67.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+              GitHub
+            </a>
+            <a class="social-btn" href="https://www.linkedin.com/in/mouad-sakhi" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <p>mouad@security-lab:~$ <span class="cursor-blink">_</span></p>
+      <p class="footer-copy">© <span id="year"></span> Mouad Sakhi. Built from scratch, deployed on GitHub Pages.</p>
+    </div>
+    <div class="footer-socials">
+      <a href="https://github.com/Mouad-sk" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.3-1.69-1.3-1.69-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.71 5.4-5.29 5.69.42.36.79 1.08.79 2.18v3.23c0 .31.21.67.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/mouad-sakhi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+      </a>
+      <a href="mailto:sk.mouad1@gmail.com" aria-label="Send an email">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 5.5h18v13H3z"/><path d="m3 6 9 7 9-7"/></svg>
+      </a>
+    </div>
+  </footer>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
