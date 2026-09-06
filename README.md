@@ -1,6 +1,6 @@
 # Mouad Sakhi — Portfolio
 
-A personal portfolio site for Mouad Sakhi, Information Systems Security engineering student, CTF player and
+A personal portfolio site for Me, An Information Systems Security engineering student, CTF player and
 Cisco-certified ethical hacker. Built with plain HTML, CSS and JavaScript — no build step, no dependencies.
 
 ## Structure
